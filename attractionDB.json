@@ -7,7 +7,7 @@
 },
 { 
   "name": "Krzywa Wieża w Pizie", 
-  "image: assets/pisatower.jpg", 
+  "image": "assets/pisatower.jpg", 
   "country": "Włochy", 
   "yearOfBuild": 1372, 
   "favorite": true 
