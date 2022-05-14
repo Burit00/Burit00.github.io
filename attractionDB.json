@@ -3,13 +3,15 @@
   "image": "assets/eiffeltower.jpg", 
   "country": "Francja", 
   "yearOfBuild": 1889, 
-  "favorite": false },
+  "favorite": false 
+},
 { 
   "name": "Krzywa Wieża w Pizie", 
   "image: assets/pisatower.jpg", 
   "country": "Włochy", 
   "yearOfBuild": 1372, 
-  "favorite": true },
+  "favorite": true 
+},
 { 
  "name": "Big Ben", 
  "image": "assets/bigben.jpg", 
