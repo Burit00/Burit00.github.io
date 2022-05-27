@@ -1,0 +1,6 @@
+<div class="container">
+  <div class="block"
+    *ngFor="let attraction of listOfAttraction | filter: sortCategory[0].category : sortCategory[0].favorite">
+    <app-attractblock [name]="attraction.name" [country]="attraction.country" [image]="attraction.image" [yearOfBuild]="attraction.yearOfBuild" [favorite]="attraction.favorite"></app-attractblock>
+  </div>
+</div>

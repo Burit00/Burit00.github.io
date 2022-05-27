@@ -1,0 +1,19 @@
+<div appSetImage [link]="image" class="photo">
+</div>
+<div class="descriptions">
+  <div class="description">Nazwa Obiektu:&nbsp; <b>{{ name }}</b></div>
+  <div class="description">Lokalizacja:&nbsp; <b>{{ country }}</b></div>
+  <div class="description">
+    <span>Rok ukonczenia budowy:&nbsp; <b>{{ yearOfBuild }}</b></span>
+    <div class="favorite">
+
+      <img class="fav" (click)="favOrNot()" *ngIf="favorite == false; else fill"
+        src="assets/heartNoFill.svg" alt="">
+
+      <ng-template #fill>
+        <img class="fav" (click)="favOrNot()" src="assets/heartFill.svg" alt="">
+      </ng-template>
+
+    </div>
+  </div>
+</div>
