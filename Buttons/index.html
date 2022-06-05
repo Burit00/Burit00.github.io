@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Buttons Library</title>
+    <script>
+        function code(className){
+            let button = document.querySelector(className);
+            let textarea = document.querySelector('#textarea');
+            //textarea.innerHTML = getComputedStyle(button);
+            let buttonStyle = getComputedStyle(button);
+        }
+    </script>
+</head>
+<body> 
+    <textarea id="textarea" cols="30" rows="10" disabled></textarea>
+    <div class="buttons">
+
+    <button class="btn-1" onclick="code('.btn-1')">Code!</button>
+    
+    <button class="btn-2" onclick="code('.btn-2')"><div>Code!</div></button>
+    
+    <button class="btn-3" onclick="code('.btn-3')"><div>Code!</div></button>
+
+    <button class="btn-4" onclick="code('.btn-4')"><div>Code!</div></button>
+    
+    <button class="btn-5" onclick="code('.btn-5')"><div>Code!</div></button>
+
+    </div>
+</body>
+</html>
